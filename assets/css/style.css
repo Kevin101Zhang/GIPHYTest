@@ -1,0 +1,55 @@
+body{
+    margin: 2%;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color:black;
+
+}
+
+h1{
+    font-size: 80px;
+    font-weight: bolder;
+    color: gold;
+    text-shadow: 2px 2px black;
+
+}
+h1:hover{
+    font-size: 100px;
+    color:lightyellow;
+    text-shadow: 2px 2px black;
+    transition: 1s;
+
+
+}
+#addAButton{
+    border-radius: 6px;
+    margin-top: 2.5%;
+    padding: 0 7.5% 0 7.5%;
+}
+#addAButton:Hover{
+    font-size: 25px;
+    color:gold;
+    transition: .5s;
+}
+#searchInput:hover{
+    background-color:lightyellow;
+}
+#searchInput,.topicButton{
+    border-radius: 12px;
+    color: midnightblue;
+    font-weight: bold;
+    background-color: lightcyan;
+
+}
+.topicButton{
+    margin-top: 5%;
+    padding: 3px 2% 3px 2%
+}
+.topicButton:hover{
+    color:salmon;
+}
+label:hover{
+color:gold
+}
